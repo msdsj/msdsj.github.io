@@ -188,7 +188,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/p/51935.html" class="post-title-link" itemprop="url">在虚拟机中运行OpenwWRT</a>
+            <a href="/p/51935.html" class="post-title-link" itemprop="url">在虚拟机中运行OpenWRT</a>
         </h2>
 
         <div class="post-meta">
@@ -199,7 +199,18 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-03-03 21:33:02 / 修改时间：23:20:58" itemprop="dateCreated datePublished" datetime="2020-03-03T21:33:02+08:00">2020-03-03</time>
+              <time title="创建时间：2020-03-03 21:33:02 / 修改时间：23:32:55" itemprop="dateCreated datePublished" datetime="2020-03-03T21:33:02+08:00">2020-03-03</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/OpenWRT/" itemprop="url" rel="index">
+                    <span itemprop="name">OpenWRT</span>
+                  </a>
+                </span>
             </span>
 
           
@@ -218,29 +229,29 @@
 <h1 id="下载OpenWRT固件镜像"><a href="#下载OpenWRT固件镜像" class="headerlink" title="下载OpenWRT固件镜像"></a>下载OpenWRT固件镜像</h1><p><a href="https://downloads.openwrt.org/releases/19.07.2/targets/x86/64/openwrt-19.07.2-x86-64-combined-ext4.img.gz" target="_blank" rel="noopener">https://downloads.openwrt.org/releases/19.07.2/targets/x86/64/openwrt-19.07.2-x86-64-combined-ext4.img.gz</a></p>
 <p>然后解压获得 openwrt-19.07.2-x86-64-combined-ext4.img</p>
 <h1 id="把-img-转换为-vmdk"><a href="#把-img-转换为-vmdk" class="headerlink" title="把 img 转换为 vmdk"></a>把 img 转换为 vmdk</h1><p>打开 StarWind V2V Image Converter 软件</p>
-<p>选择 Local file 然后点 Next<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/1.png" alt=""></p>
-<p>选择刚才解压的 openwrt-19.07.2-x86-64-combined-ext4.img 文件<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/2.png" alt=""></p>
-<p>选择 Local file<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/3.png" alt=""></p>
-<p>选择 VMDK<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/4.png" alt=""></p>
-<p>选择 VMware Workstation growable image<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/5.png" alt=""></p>
-<p>转换后的 openwrt-19.07.2-x86-64-combined-ext4.vmdk 保存路径<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/5.png" alt=""></p>
+<p>选择 Local file 然后点 Next<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/1.png" alt=""></p>
+<p>选择刚才解压的 openwrt-19.07.2-x86-64-combined-ext4.img 文件<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/2.png" alt=""></p>
+<p>选择 Local file<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/3.png" alt=""></p>
+<p>选择 VMDK<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/4.png" alt=""></p>
+<p>选择 VMware Workstation growable image<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/5.png" alt=""></p>
+<p>转换后的 openwrt-19.07.2-x86-64-combined-ext4.vmdk 保存路径<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/5.png" alt=""></p>
 <h1 id="创建虚拟机"><a href="#创建虚拟机" class="headerlink" title="创建虚拟机"></a>创建虚拟机</h1><p>打开 VMware Workstation Player 创建新虚拟机</p>
-<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/7.png" alt=""></p>
-<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/8.png" alt=""></p>
-<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/9.png" alt=""></p>
-<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/10.png" alt=""></p>
-<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/11.png" alt=""></p>
+<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/7.png" alt=""></p>
+<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/8.png" alt=""></p>
+<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/9.png" alt=""></p>
+<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/10.png" alt=""></p>
+<p><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/11.png" alt=""></p>
 <p>完成后打开上图的位置的文件夹</p>
-<p>将刚才转换好的 openwrt-19.07.2-x86-64-combined-ext4.vmdk 复制进去<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/12.png" alt=""></p>
-<h1 id="配置虚拟机"><a href="#配置虚拟机" class="headerlink" title="配置虚拟机"></a>配置虚拟机</h1><p>选中刚才创建的虚拟机，然后右键打开设置<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/13.png" alt=""></p>
-<p>移除硬盘<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/14.png" alt=""></p>
-<p>点击下方的“添加” ，然后添加一个硬盘<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/15.png" alt=""></p>
-<p>SCSI<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/16.png" alt=""></p>
-<p>使用现有虚拟磁盘<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/17.png" alt=""></p>
-<p>选择刚才复制进去的 openwrt-19.07.2-x86-64-combined-ext4.vmdk<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/18.png" alt=""></p>
-<p>保持现有的格式<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/19.png" alt=""></p>
-<p>将网卡设置为 桥接模式<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/20.png" alt=""></p>
-<p>然后再添加一个新的网卡，同样也是设置为 桥接模式<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/21.png" alt=""></p>
+<p>将刚才转换好的 openwrt-19.07.2-x86-64-combined-ext4.vmdk 复制进去<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/12.png" alt=""></p>
+<h1 id="配置虚拟机"><a href="#配置虚拟机" class="headerlink" title="配置虚拟机"></a>配置虚拟机</h1><p>选中刚才创建的虚拟机，然后右键打开设置<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/13.png" alt=""></p>
+<p>移除硬盘<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/14.png" alt=""></p>
+<p>点击下方的“添加” ，然后添加一个硬盘<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/15.png" alt=""></p>
+<p>SCSI<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/16.png" alt=""></p>
+<p>使用现有虚拟磁盘<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/17.png" alt=""></p>
+<p>选择刚才复制进去的 openwrt-19.07.2-x86-64-combined-ext4.vmdk<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/18.png" alt=""></p>
+<p>保持现有的格式<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/19.png" alt=""></p>
+<p>将网卡设置为 桥接模式<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/20.png" alt=""></p>
+<p>然后再添加一个新的网卡，同样也是设置为 桥接模式<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/21.png" alt=""></p>
 <p>确定退出</p>
 <h1 id="OpenWRT-配置-IP地址"><a href="#OpenWRT-配置-IP地址" class="headerlink" title="OpenWRT 配置 IP地址"></a>OpenWRT 配置 IP地址</h1><p>开机后按回车键显示命令行</p>
 <p>输入 </p>
@@ -250,8 +261,8 @@
 <p>浏览器输入 192.168.0.123 登录到管理界面</p>
 <p>默认密码为：admin</p>
 <p>打开 Network - Interfaces</p>
-<p>然后Edit LAN<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/22.png" alt=""></p>
-<p>修改 IPv4 address，然后 Save<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenwWRT/23.png" alt=""></p>
+<p>然后Edit LAN<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/22.png" alt=""></p>
+<p>修改 IPv4 address，然后 Save<br><img src="/images%5C%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8COpenWRT/23.png" alt=""></p>
 <p>点击 Save &amp; Apply 保存和应用</p>
 
       
@@ -357,7 +368,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/p/61172.html" class="post-title-link" itemprop="url">Openwrt-查找管理IP地址</a>
+            <a href="/p/61172.html" class="post-title-link" itemprop="url">OpenWRT-查找管理IP地址</a>
         </h2>
 
         <div class="post-meta">
@@ -368,7 +379,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-03-03 19:44:33 / 修改时间：20:45:10" itemprop="dateCreated datePublished" datetime="2020-03-03T19:44:33+08:00">2020-03-03</time>
+              <time title="创建时间：2020-03-03 19:44:33 / 修改时间：23:30:06" itemprop="dateCreated datePublished" datetime="2020-03-03T19:44:33+08:00">2020-03-03</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -376,8 +387,8 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/OpenWER/" itemprop="url" rel="index">
-                    <span itemprop="name">OpenWER</span>
+                  <a href="/categories/OpenWRT/" itemprop="url" rel="index">
+                    <span itemprop="name">OpenWRT</span>
                   </a>
                 </span>
             </span>
@@ -393,11 +404,11 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>OpenWER默认管理地址为：192.168.1.1<br>如果使用第三方定制的固件，那么地址可能被修改<br>如果不知道管理地址，可以通过以下方法获取管理地址</p>
+          <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>OpenWRT默认管理地址为：192.168.1.1<br>如果使用第三方定制的固件，那么地址可能被修改<br>如果不知道管理地址，可以通过以下方法获取管理地址</p>
 <h1 id="通过CMD查找"><a href="#通过CMD查找" class="headerlink" title="通过CMD查找"></a>通过CMD查找</h1><p>按住 Ctrl + R 键<br>输入 cmd 然后按回车健</p>
-<p><img src="/images/Openwrt-%E6%9F%A5%E6%89%BE%E7%AE%A1%E7%90%86IP%E5%9C%B0%E5%9D%80/1.png" alt=""></p>
+<p><img src="/images/OpenWRT-%E6%9F%A5%E6%89%BE%E7%AE%A1%E7%90%86IP%E5%9C%B0%E5%9D%80/1.png" alt=""></p>
 <p>输入 ipconfig | more 然后按回车健</p>
-<p><img src="/images/Openwrt-%E6%9F%A5%E6%89%BE%E7%AE%A1%E7%90%86IP%E5%9C%B0%E5%9D%80/2.png" alt=""></p>
+<p><img src="/images/OpenWRT-%E6%9F%A5%E6%89%BE%E7%AE%A1%E7%90%86IP%E5%9C%B0%E5%9D%80/2.png" alt=""></p>
 <p>默认网关地址就是OpenWRT管理地址了</p>
 
       
@@ -797,7 +808,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
